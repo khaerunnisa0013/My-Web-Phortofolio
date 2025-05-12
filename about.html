@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#" class="active">about</a></li>
+                <li><a href="#portfolio.html">Portofolio</a></li>
+                <li><a href="#blog.html">Blog</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section 1: Kenalan -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="text">
+                <h2>Ayo kenal lebih dekat!</h2>
+                <p>Saya Khounnisa, seorang mahasiswa Bisnis Digital yang bersemangat dalam dunia digital, bisnis, dan inovasi!</p>
+                <p>Dengan latar belakang di Bisnis Digital, Fakultas Ekonomi dan Bisnis, Universitas Negeri Makassar, saya percaya bahwa teknologi adalah kunci untuk menciptakan peluang dan pertumbuhan baru.</p>
+                <p>Mari berkembang bersama dan wujudkan ide-ide besar!</p>
+                <button onclick="scrollToSection('tujuan')">More</button>
+            </div>
+            <div class="image">
+                <img src="foto-kamu.png" alt="Foto Profil">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Tujuan -->
+    <section id="tujuan" class="section">
+        <div class="container">
+            <h2>Tujuan Website</h2>
+            <ul>
+                <li>Berbagi wawasan seputar bisnis digital, strategi pemasaran, dan teknologi.</li>
+                <li>Memberikan edukasi digital bagi pemula yang ingin memahami dunia bisnis.</li>
+                <li>Memberikan motivasi dan pelaku usaha dalam mengaplikasikan teknologi.</li>
+                <li>Menjadi platform edukasi bagi siapa saja yang ingin belajar dan berkembang di dunia digital.</li>
+            </ul>
+            <button onclick="scrollToSection('sertifikat')">More</button>
+        </div>
+    </section>
+
+    <!-- Section 3: Sertifikat -->
+    <section id="sertifikat" class="section">
+        <div class="container">
+            <h2>Sertifikat</h2>
+            <div class="certificates">
+                <img src="sertifikat1.png" alt="Sertifikat 1">
+                <img src="sertifikat2.png" alt="Sertifikat 2">
+                <img src="sertifikat3.png" alt="Sertifikat 3">
+                <img src="sertifikat4.png" alt="Sertifikat 4">
+                <img src="sertifikat5.png" alt="Sertifikat 5">
+            </div>
+            <button onclick="scrollToSection('footer')">More</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p>© 2025 Khounnisa. All Rights Reserved.</p>
+            <p>Email: khounnisa@example.com | Phone: +62 812 3456 7890</p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
