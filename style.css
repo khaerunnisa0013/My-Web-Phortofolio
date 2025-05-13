@@ -24,6 +24,7 @@ a, button, input, textarea, select {
 }
 
 /* Header */
+
 header {
   background-color: #C8F5BE;
   padding: 20px 40px;
@@ -544,16 +545,6 @@ footer {
   animation: rotate 6s linear infinite;
 }
 
-/* Dekorasi lengkung hijau bawah */
-.curve-decoration {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 220px;
-  height: 220px;
-  background-color: #2B9348;
-  border-top-left-radius: 100%;
-}
 
 /* Ikon Sosial Media */
 .socials-bottom {
