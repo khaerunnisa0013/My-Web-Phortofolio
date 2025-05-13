@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Strategi Digital Marketing</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e8f5e9;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007c43;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Header */
+    .site-header {
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .site-header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .site-header .logo {
+      font-weight: bold;
+      font-size: 20px;
+      color: #006400;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav ul li a.active {
+      font-weight: bold;
+      color: #007c43;
+    }
+
+    /* Blog Post */
+    .blog-post {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-top: 40px;
+    }
+
+    .blog-post img {
+      width: 100%;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 20px;
+    }
+
+    /* More Posts */
+    .more-posts {
+      margin-top: 50px;
+    }
+
+    .more-posts h2 {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+    .post-list {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .post-card {
+      flex: 1 1 30%;
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .post-card img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .post-card p {
+      font-size: 14px;
+    }
+
+    /* Comments */
+    .comments {
+      margin-top: 50px;
+    }
+
+    .comments h2 {
+      margin-bottom: 10px;
+    }
+
+    .comment-form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .comment-form input {
+      padding: 10px;
+      flex: 1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .comment-form button {
+      padding: 10px 15px;
+      background-color: #007c43;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .comment {
+      display: flex;
+      gap: 15px;
+      background-color: #d4edda;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .comment img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .comment-content p {
+      margin: 5px 0;
+    }
+
+    .comment-content span {
+      font-size: 12px;
+      color: gray;
+    }
+
+    /* Social Icons */
+    .social-footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .social-footer img {
+      width: 30px;
+      margin: 0 10px;
+      vertical-align: middle;
+    }
+
+    /* Footer */
+    .site-footer {
+      background-color: #d1e7d3;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    .footer-links a {
+      color: #333;
+      margin: 0 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .post-list {
+        flex-direction: column;
+      }
+
+      .comment-form {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Key Next Digital</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#" class="active">#Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Blog Post -->
+  <div class="container">
+    <article class="blog-post">
+      <h1>"Strategi Digital Marketing yang Wajib Dikuasai untuk Sukses di Dunia Online"</h1>
+      <div class="meta">Key Next Digital | <a href="#">Digital Marketing</a> | 1 min ago</div>
+      <img src="img/01adf65ddcda03575222b62bb5f0350d.jpg" alt="Strategi Digital">
+      <p>Di era digital, pemasaran online menjadi elemen penting dalam keberhasilan bisnis...</p>
+      <p>Strategi digital marketing yang efektif mencakup SEO, konten berkualitas, media sosial, dan email marketing.</p>
+      <p>Penting juga memahami data dan mengikuti tren terbaru untuk tetap kompetitif.</p>
+    </article>
+
+    <!-- More Posts -->
+    <section class="more-posts">
+      <h2>More Posts</h2>
+      <div class="post-list">
+        <div class="post-card">
+          <img src="img/981afbceabd6061c4e2fdd31c909cab9.jpg" alt="Growth Mindset">
+          <p><strong>“Membangun Growth Mindset: Langkah Awal Menuju Kesuksesan”</strong></p>
+        </div>
+        <div class="post-card">
+          <img src="img/e91975aa0af09b0767f754765839a300.jpg" alt="Marketing 2025">
+          <p><strong>“Tren Digital Marketing 2025: Apa yang Harus Anda Siapkan?”</strong></p>
+        </div>
+        <div class="post-card">
+          <img src="img/05c1ec0a7637c2087e0e570a5bfc6932.jpg" alt="Online Business">
+          <p><strong>“Kesalahan Umum dalam Bisnis Online dan Cara Menghindarinya”</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comments -->
+    <section class="comments">
+      <h2>Comments</h2>
+      <form class="comment-form">
+        <input type="text" placeholder="Username..." required />
+        <input type="text" placeholder="Your Comment..." required />
+        <button type="submit">Comment</button>
+      </form>
+      <div class="comment">
+        <img src="img/user-icon.png" alt="User Icon">
+        <div class="comment-content">
+          <strong>Dina</strong>
+          <p>"Artikel yang sangat informatif! Saya jadi lebih paham pentingnya SEO dan social media marketing untuk bisnis saya."</p>
+          <span>Reply • a min ago</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media Icons -->
+    <div class="social-footer">
+      <a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a>
+      <a href="#"><img src="img/linkedin-icon.png" alt="LinkedIn"></a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Key Next Digital. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms</a> |
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,44 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blog/Artikel">
-    <title>Blog/Artikel</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog/Artikel - Khaerunnisa</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header -->
+  <header>
+    <a href="index.html">
+      <img src="img/Yellow and Green Modern Logo (4).png" alt="Logo" class="logo-img">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Portofolio</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <h1>Blog/Artikel</h1>
-        <div class="article-grid">
-            <div class="article-card">...</div>
-            <div class="article-card">...</div>
-            <div class="article-card">...</div>
-            <div class="article-card">...</div>
-            <div class="article-card">...</div>
-            <div class="article-card">...</div>
+  <!-- Blog Section -->
+  <main class="blog-section">
+    <div class="container">
+      <h1>Blog/Artikel</h1>
+      <div class="blog-grid">
+        <div class="blog-card">
+          <img src="img/981afbceabd6061c4e2fdd31c909cab9.jpg" alt="Mindset">
+          <div class="content">
+            <h3>"Membangun Growth Mindset: Langkah Awal Menuju Kesuksesan"</h3>
+            <p>Menumbuhkan pola pikir berkembang adalah pondasi penting menuju kesuksesan dalam berbagai aspek kehidupan.</p>
+          </div>
         </div>
-        <button class="load-more">More →</button>
-    </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="social-media">...</div>
-            <div class="footer-links">...</div>
-            <div class="contact-info">...</div>
+        <div class="blog-card">
+          <img src="img/01adf65ddcda03575222b62bb5f0350d.jpg" alt="Strategi Digital Marketing">
+          <div class="content">
+            <h3>"Strategi Digital Marketing yang Wajib Dikuasai untuk Sukses di Dunia Online"</h3>
+            <p>Strategi digital marketing yang efektif dapat membawa kesuksesan besar dalam pemasaran online Anda.</p>
+          </div>
         </div>
-    </footer>
+
+        <div class="blog-card">
+          <img src="img/e91975aa0af09b0767f754765839a300.jpg" alt="Tren Digital Marketing">
+          <div class="content">
+            <h3>"Tren Digital Marketing 2025: Apa yang Harus Anda Siapkan?"</h3>
+            <p>Ikuti perkembangan terbaru dunia digital marketing dan siapkan bisnis Anda untuk masa depan.</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="img/05c1ec0a7637c2087e0e570a5bfc6932.jpg" alt="Business Model Canvas">
+          <div class="content">
+            <h3>Apa itu Business Model Canvas (BMC)?</h3>
+            <p>Pelajari framework visual strategis yang membantu Anda merancang dan menganalisis model bisnis.</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="img/bf2e54eb97bdfbd2510817ca70f7af77.jpg" alt="Kesalahan Bisnis Online">
+          <div class="content">
+            <h3>"Kesalahan Umum dalam Bisnis Online dan Cara Menghindarinya"</h3>
+            <p>Kenali kesalahan umum dalam membangun bisnis online dan bagaimana cara mengatasinya.</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="img/5dd2454b7c4501d514ffb0aff7e488f8.jpg" alt="Personal Branding">
+          <div class="content">
+            <h3>Mengapa Personal Branding Penting dalam Era Digital?</h3>
+            <p>Bangun citra diri yang kuat di dunia digital dan tingkatkan peluang profesional Anda.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="more-link">
+        <a href="#">More ➔</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Search and More Button -->
+    <div class="blog-footer">
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+        <button>Search</button>
+      </div>
+      <a href="#" class="more-link">More <span>→</span></a>
+    </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Khaerunnisa. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

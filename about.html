@@ -1,84 +1,103 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Mahasiswa Digital</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Saya</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#" class="active">about</a></li>
-                <li><a href="#portfolio.html">Portofolio</a></li>
-                <li><a href="#blog.html">Blog</a></li>
-                <li><a href="#contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+   <!-- Header -->
+  <header>
+  <a href="index.html">
+    <img src="img/Yellow and Green Modern Logo (4).png" alt="Logo" class="logo-img">
+  </a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a>
+      <li><a href="about.html" class="active">about</a></li>
+      <li><a href="projects.html">Portofolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <!-- Section 1: Kenalan -->
-    <section id="about" class="section">
-        <div class="container">
-            <div class="text">
-                <h2>Ayo kenal lebih dekat!</h2>
-                <p>Saya Khounnisa, seorang mahasiswa Bisnis Digital yang bersemangat dalam dunia digital, bisnis, dan inovasi!</p>
-                <p>Dengan latar belakang di Bisnis Digital, Fakultas Ekonomi dan Bisnis, Universitas Negeri Makassar, saya percaya bahwa teknologi adalah kunci untuk menciptakan peluang dan pertumbuhan baru.</p>
-                <p>Mari berkembang bersama dan wujudkan ide-ide besar!</p>
-                <button onclick="scrollToSection('tujuan')">More</button>
-            </div>
-            <div class="image">
-                <img src="foto-kamu.png" alt="Foto Profil">
-            </div>
-        </div>
-    </section>
+  <!-- Bagian Ayo Kenal Lebih Dekat -->
+  <section class="about-section">
+  <div class="about-content">
+    <div class="text">
+      <h2>Ayo kenal lebih dekat!</h2>
+      <p>
+        Saya Khaerunnisa, seorang mahasiswa Bisnis Digital yang bersemangat dalam edukasi digital, bisnis, dan inovasi teknologi. <br><br>
+        Dengan latar belakang di Bisnis Digital, Fakultas Ekonomi dan Bisnis, Universitas Negeri Makassar, saya percaya bahwa teknologi adalah alat untuk menciptakan peluang dan perubahan. <br><br>
+        Di sini, saya berbagi wawasan bisnis digital, strategi pemasaran, dan tren teknologi yang dirancang untuk membantu pemula memahami dunia digital, meningkatkan keterampilan bisnis, dan menghadirkan inovasi masa depan. <br><br>
+        Mari berkembang bersama dan wujudkan ide-ide besar! ✨
+      </p>
+    </div>
+    <div class="image">
+      <img src="Galery Proyek.img/Untitled design (6).png" alt="Foto Khaerunnisa">
+    </div>
+  </div>
+  <div class="decoration">
+    <div class="flower">*</div>
+    <div class="flower">*</div>
+  </div>
+  <a href="#more" class="more-link">More →</a>
+</section>
 
-    <!-- Section 2: Tujuan -->
-    <section id="tujuan" class="section">
-        <div class="container">
-            <h2>Tujuan Website</h2>
-            <ul>
-                <li>Berbagi wawasan seputar bisnis digital, strategi pemasaran, dan teknologi.</li>
-                <li>Memberikan edukasi digital bagi pemula yang ingin memahami dunia bisnis.</li>
-                <li>Memberikan motivasi dan pelaku usaha dalam mengaplikasikan teknologi.</li>
-                <li>Menjadi platform edukasi bagi siapa saja yang ingin belajar dan berkembang di dunia digital.</li>
-            </ul>
-            <button onclick="scrollToSection('sertifikat')">More</button>
-        </div>
-    </section>
+  <!-- Bagian Tujuan Website -->
+  <section class="tujuan-section">
+  <h2>Tujuan Website</h2>
+  <div class="tujuan-list">
+    <div class="tujuan-item">Berbagi wawasan seputar bisnis digital, strategi pemasaran, dan tren teknologi.</div>
+    <div class="tujuan-item">Memberikan edukasi digital bagi pemula yang ingin memahami dunia bisnis.</div>
+    <div class="tujuan-item">Membantu mahasiswa dan pelaku usaha dalam mengoptimalkan teknologi untuk bisnis dan karier mereka.</div>
+    <div class="tujuan-item">Menjadi platform diskusi bagi siapa saja yang ingin belajar dan berkembang di dunia digital.</div>
+  </div>
 
-    <!-- Section 3: Sertifikat -->
-    <section id="sertifikat" class="section">
-        <div class="container">
-            <h2>Sertifikat</h2>
-            <div class="certificates">
-                <img src="sertifikat1.png" alt="Sertifikat 1">
-                <img src="sertifikat2.png" alt="Sertifikat 2">
-                <img src="sertifikat3.png" alt="Sertifikat 3">
-                <img src="sertifikat4.png" alt="Sertifikat 4">
-                <img src="sertifikat5.png" alt="Sertifikat 5">
-            </div>
-            <button onclick="scrollToSection('footer')">More</button>
-        </div>
-    </section>
+  <!-- Flower Icon (dekorasi) -->
+  <div class="flower-decoration">✽</div>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="container">
-            <p>© 2025 Khounnisa. All Rights Reserved.</p>
-            <p>Email: khounnisa@example.com | Phone: +62 812 3456 7890</p>
-        </div>
-    </footer>
+  <!-- Lengkungan hijau -->
+  <div class="curve-decoration"></div>
 
-    <script>
-        function scrollToSection(id) {
-            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
+  <!-- Bagian Sertifikat -->
+  <section class="sertifikat-section">
+  <h2>Sertifikat</h2>
+  <div class="sertifikat-grid">
+    <img src="sertifikat.img/Screenshot 2025-03-08 213452.png" alt="Sertifikat 1">
+    <img src="sertifikat.img/Screenshot 2025-03-08 213550.png" alt="Sertifikat 2">
+    <img src="sertifikat.img/Screenshot 2025-03-08 213801.png" alt="Sertifikat 3">
+    <img src="sertifikat.img/Screenshot 2025-03-08 214631.png" alt="Sertifikat 4">
+    <img src="sertifikat.img/Screenshot 2025-03-08 215019.png" alt="Sertifikat 5">
+  </div>
 
+  <!-- Dekorasi bunga -->
+  <div class="sertifikat-decoration flower1">✽</div>
+  <div class="sertifikat-decoration flower2">✽</div>
+
+  <!-- Footer / ikon sosial -->
+  <div class="socials-footer">
+    <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+    <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Khaerunnisa. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
