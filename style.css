@@ -793,7 +793,7 @@ h1 {
 }
 
 footer {
-  background-color: #d1e7d3;
+  background-color: #C8F5BE;
   padding: 30px 40px;
   text-align: center;
   font-size: 14px;
@@ -1002,3 +1002,54 @@ footer {
 }
 
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  background-color: #2f312f; /* warna latar bulat sesuai gambar */
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+  margin-right: 40px; /* Geser dari kanan jika perlu */
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: #2f312f; /* Hitam kehijauan */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.icon:hover {
+  background-color: #444; /* Sedikit lebih terang saat hover */
+}

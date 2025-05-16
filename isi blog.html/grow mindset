@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategi Digital Marketing</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d3f7c3;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #f0fff0;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1em;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    nav ul li a.active {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2em;
+      background-color: #e5fbe0;
+      border-radius: 10px;
+    }
+    .container img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    h1 {
+      font-size: 24px;
+      color: #333;
+    }
+    .meta {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 1em;
+    }
+    .blog-content {
+      font-size: 1em;
+      line-height: 1.6em;
+      color: #333;
+    }
+    .more-posts {
+      margin-top: 3em;
+    }
+    .more-posts h2 {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+    .post-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+    .post-card {
+      background-color: white;
+      padding: 1em;
+      border-radius: 8px;
+      flex: 1 1 30%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .post-card img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .comments {
+      margin-top: 3em;
+    }
+    .comment-box textarea {
+      width: 100%;
+      padding: 1em;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-top: 0.5em;
+    }
+    .comment-box button {
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 2em;
+    }
+    .footer-links {
+      margin-top: 1em;
+    }
+    .footer-links a {
+      margin: 0 0.5em;
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="img/Yellow and Green Modern Logo (4).png" alt="Logo" class="logo-img" style="height: 40px;">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Portfolio</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>"Strategi Digital Marketing yang Wajib Dikuasai untuk Sukses di Dunia Online"</h1>
+    <p class="meta">Key Next Digital | <a href="#">Digital Marketing</a> | a min ago</p>
+    <img src="img/01adf65ddcda03575222b62bb5f0350d.jpg" alt="Strategi Digital Marketing">
+    <div class="blog-content">
+      <p>Di era digital, pemasaran online menjadi elemen penting dalam keseluruhan bisnis. Strategi digital marketing yang efektif mencakup SEO, social media, content marketing, dan email marketing.</p>
+      <p>Salah satu manfaat utama digital marketing adalah mampu menjangkau pelanggan dengan efisien dan biaya lebih rendah. Influencer marketing dan affiliate marketing juga berperan penting dalam memperluas jangkauan.</p>
+      <p>Selain itu, penggunaan data analytics membantu pengusaha memahami perilaku konsumen serta meningkatkan efisiensi strategi pemasaran mereka.</p>
+    </div>
+
+    <div class="more-posts">
+      <h2>More Posts</h2>
+      <div class="post-grid">
+        <div class="post-card">
+          <a href="#"><img src="img/981afbceabd6061c4e2fdd31c909cab9.jpg" alt="Mindset"></a>
+          <p><a href="#">"Membangun Growth Mindset: Langkah Awal Menuju Kesuksesan"</a></p>
+        </div>
+        <div class="post-card">
+          <a href="#"><img src="img/e91975aa0af09b0767f754765839a300.jpg" alt="Tren 2025"></a>
+          <p><a href="#">"Tren Digital Marketing 2025: Apa yang Harus Anda Siapkan?"</a></p>
+        </div>
+        <div class="post-card">
+          <a href="#"><img src="img/bf2e54eb97bdfbd2510817ca70f7af77.jpg" alt="Kesalahan Online"></a>
+          <p><a href="#">"Kesalahan Umum dalam Bisnis Online dan Cara Menghindarinya"</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="comments">
+      <h3>Comments</h3>
+      <div class="comment-box">
+        <textarea placeholder="Your Comment..."></textarea>
+        <button>Comment</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Khaerunnisa. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
